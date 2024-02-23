@@ -1,0 +1,86 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.pageContainer {
+  flex: 0 0 500px;
+}
+
+.pageButtonContainer {
+  flex: 0 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.pageButton {
+  flex: 0 0 3rem;
+  background-color: var(--secondary);
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  border: 2px dashed var(--primary);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.message {
+  border: 1px solid var(--secondary);
+  padding: 0.5rem;
+}
+
+.countryContainer {
+  padding: 1rem;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.form button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.fieldset {
+  width: 400px;
+}
+
+.inputWrapper {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.inputWrapper label {
+  flex: 1 0 4rem;
+}
+
+.inputWrapper input {
+  flex: 1 0 10rem;
+}
+
+.itemListWrapper {
+  width: 300px;
+}
+
+.itemListItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem
+}
+
+.itemListItem span {
+  flex: 0 0 4rem
+}
